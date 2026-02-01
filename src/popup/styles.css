@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light theme CSS variables (default) - matches webfront sl-theme-light */
+:root {
+  --jsa-bg-gradient: linear-gradient(to bottom right, rgb(6, 116, 155), rgb(30, 64, 145));
+  --jsa-text-primary: white;
+  --jsa-text-secondary: rgb(229, 229, 229);  /* neutral-200 */
+  --jsa-text-muted: rgb(212, 212, 212);      /* neutral-300 */
+  --jsa-text-dimmed: rgba(255, 255, 255, 0.6);
+  --jsa-border-color: rgba(255, 255, 255, 0.3);
+  --jsa-border-hover: rgba(255, 255, 255, 0.5);
+  --jsa-bg-subtle: rgba(0, 0, 0, 0.15);
+  --jsa-bg-hover: rgba(0, 0, 0, 0.2);
+  --jsa-bg-active: rgba(0, 0, 0, 0.25);
+  --jsa-accent: rgb(6, 182, 212);          /* cyan-500 - less saturated */
+  --jsa-accent-muted: rgb(165, 243, 252);  /* cyan-200 */
+  --jsa-accent-focus-ring: rgba(165, 243, 252, 0.3);
+  --jsa-link-color: rgb(165, 243, 252);    /* cyan-200 */
+  --jsa-spinner-bg: rgba(255, 255, 255, 0.3);
+  --jsa-input-bg: rgba(0, 0, 0, 0.15);
+  --jsa-input-bg-hover: rgba(0, 0, 0, 0.2);
+  --jsa-input-bg-focus: rgba(0, 0, 0, 0.25);
+  --jsa-input-border-focus: rgba(255, 255, 255, 0.6);
+}
+
+/* Dark theme CSS variables - matches webfront sl-theme-dark */
+:root[data-theme="dark"] {
+  --jsa-bg-gradient: linear-gradient(to bottom right, rgb(5, 50, 100), rgb(5, 10, 40));
+  --jsa-text-primary: rgb(245, 245, 245);    /* neutral-100 */
+  --jsa-text-secondary: rgb(212, 212, 212);  /* neutral-300 */
+  --jsa-text-muted: rgb(163, 163, 163);      /* neutral-400 */
+  --jsa-text-dimmed: rgb(163, 163, 163);     /* neutral-400 */
+  --jsa-border-color: rgba(255, 255, 255, 0.2);
+  --jsa-border-hover: rgba(255, 255, 255, 0.3);
+  --jsa-bg-subtle: rgba(0, 0, 0, 0.2);
+  --jsa-bg-hover: rgba(0, 0, 0, 0.25);
+  --jsa-bg-active: rgba(0, 0, 0, 0.3);
+  --jsa-accent: rgb(14, 165, 233);         /* sky-500 */
+  --jsa-accent-muted: rgb(56, 189, 248);   /* sky-400 */
+  --jsa-accent-focus-ring: rgba(14, 165, 233, 0.3);
+  --jsa-link-color: rgb(56, 189, 248);     /* sky-400 */
+  --jsa-spinner-bg: rgba(255, 255, 255, 0.2);
+  --jsa-input-bg: rgba(0, 0, 0, 0.2);
+  --jsa-input-bg-hover: rgba(0, 0, 0, 0.25);
+  --jsa-input-bg-focus: rgba(0, 0, 0, 0.3);
+  --jsa-input-border-focus: rgb(14, 165, 233);
+}
+
+/* System theme - dark mode variant */
+@media (prefers-color-scheme: dark) {
+  :root[data-theme="system"] {
+    --jsa-bg-gradient: linear-gradient(to bottom right, rgb(5, 50, 100), rgb(5, 10, 40));
+    --jsa-text-primary: rgb(245, 245, 245);
+    --jsa-text-secondary: rgb(212, 212, 212);
+    --jsa-text-muted: rgb(163, 163, 163);
+    --jsa-text-dimmed: rgb(163, 163, 163);
+    --jsa-border-color: rgba(255, 255, 255, 0.2);
+    --jsa-border-hover: rgba(255, 255, 255, 0.3);
+    --jsa-bg-subtle: rgba(0, 0, 0, 0.2);
+    --jsa-bg-hover: rgba(0, 0, 0, 0.25);
+    --jsa-bg-active: rgba(0, 0, 0, 0.3);
+    --jsa-accent: rgb(14, 165, 233);
+    --jsa-accent-muted: rgb(56, 189, 248);
+    --jsa-accent-focus-ring: rgba(14, 165, 233, 0.3);
+    --jsa-link-color: rgb(56, 189, 248);
+    --jsa-spinner-bg: rgba(255, 255, 255, 0.2);
+    --jsa-input-bg: rgba(0, 0, 0, 0.2);
+    --jsa-input-bg-hover: rgba(0, 0, 0, 0.25);
+    --jsa-input-bg-focus: rgba(0, 0, 0, 0.3);
+    --jsa-input-border-focus: rgb(14, 165, 233);
+  }
+}
+
+html {
+  width: 360px;
+  height: 295px;
+  margin: 0;
+  padding: 0;
+  transition: height 0.15s ease-out;
+}
+
+body {
+  width: 360px;
+  height: 295px;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+  background: var(--jsa-bg-gradient);
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  transition: height 0.15s ease-out;
+  overflow: auto;
+}
+
+jsa-app {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

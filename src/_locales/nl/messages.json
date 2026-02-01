@@ -1,0 +1,204 @@
+{
+  "extName": {
+    "message": "JSA - Sollicitatie Assistent",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Zie hoe goed elke vacature bij je past voordat je hem opent!",
+    "description": "Extension description"
+  },
+
+  "authTitle": {
+    "message": "Inloggen bij JSA",
+    "description": "Auth view title"
+  },
+  "authSubtitle": {
+    "message": "Verbind je account om vacature-matches te zien tijdens het browsen.",
+    "description": "Auth view subtitle"
+  },
+  "authLoginButton": {
+    "message": "Inloggen bij JSA",
+    "description": "Login button text"
+  },
+  "authLoginTimedOut": {
+    "message": "Inloggen verlopen",
+    "description": "Login timeout error"
+  },
+  "authLoginFailed": {
+    "message": "Inloggen mislukt",
+    "description": "Login failed error"
+  },
+
+  "uploadTitle": {
+    "message": "Upload je CV",
+    "description": "Upload view title"
+  },
+  "uploadSubtitle": {
+    "message": "We analyseren je CV om de beste vacatures te vinden.",
+    "description": "Upload view subtitle"
+  },
+  "uploadFileTab": {
+    "message": "Bestand uploaden",
+    "description": "File upload tab"
+  },
+  "uploadTextTab": {
+    "message": "Tekst schrijven",
+    "description": "Text input tab"
+  },
+  "uploadDropzoneText": {
+    "message": "Sleep je CV hierheen of klik om te selecteren",
+    "description": "Dropzone main text"
+  },
+  "uploadDropzoneHint": {
+    "message": "of Ctrl+V om te plakken",
+    "description": "Dropzone hint about pasting"
+  },
+  "uploadDropzoneFormats": {
+    "message": "PDF, DOCX of TXT (max 5MB)",
+    "description": "Supported file formats"
+  },
+  "uploadButton": {
+    "message": "CV uploaden",
+    "description": "Upload button text"
+  },
+  "uploadButtonUploading": {
+    "message": "Uploaden...",
+    "description": "Upload button text while uploading"
+  },
+  "uploadTextTitlePlaceholder": {
+    "message": "bijv. Huisarts",
+    "description": "Text title input placeholder"
+  },
+  "uploadTextTitleHint": {
+    "message": "Titel (optioneel) — laat leeg voor \"Mijn CV.txt\"",
+    "description": "Text title hint"
+  },
+  "uploadTextContentHint": {
+    "message": "Beschrijf je achtergrond, vaardigheden en wat je zoekt",
+    "description": "Text content hint"
+  },
+  "uploadTextPlaceholder": {
+    "message": "Huisarts met 5+ jaar ervaring. Vertrouwd met diagnostiek, patientenzorg, EPD-systemen. Momenteel werkzaam bij Stadsmedisch Centrum met 30+ patienten per dag. Op zoek naar poliklinische functies met minder administratie.",
+    "description": "Text content placeholder"
+  },
+  "uploadTextMinChars": {
+    "message": "$count$ tekens (min $min$)",
+    "description": "Character count with minimum",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "min": { "content": "$2" }
+    }
+  },
+  "uploadTextChars": {
+    "message": "$count$ tekens",
+    "description": "Character count",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "uploadSubmitButton": {
+    "message": "Verzenden",
+    "description": "Text submit button"
+  },
+  "uploadErrorInvalidType": {
+    "message": "Upload een PDF, DOCX of TXT bestand",
+    "description": "Invalid file type error"
+  },
+  "uploadErrorTooLarge": {
+    "message": "Bestand moet kleiner zijn dan 5MB",
+    "description": "File too large error"
+  },
+  "uploadErrorFailed": {
+    "message": "Uploaden mislukt",
+    "description": "Generic upload error"
+  },
+
+  "processingTitle": {
+    "message": "Je CV wordt verwerkt",
+    "description": "Processing view title"
+  },
+  "processingSubtitle": {
+    "message": "Even geduld, dit duurt meestal een paar minuten.",
+    "description": "Processing view subtitle"
+  },
+  "processingStepUploading": {
+    "message": "Document uploaden",
+    "description": "Processing step 1"
+  },
+  "processingStepIndexing": {
+    "message": "Je CV indexeren",
+    "description": "Processing step 2"
+  },
+  "processingFailed": {
+    "message": "Verwerking mislukt",
+    "description": "Processing failed error"
+  },
+  "processingStatusError": {
+    "message": "Status controleren mislukt",
+    "description": "Status check error"
+  },
+
+  "readyTitle": {
+    "message": "Klaar om te matchen!",
+    "description": "Ready view title"
+  },
+  "readySubtitle": {
+    "message": "Bekijk vacaturesites en wij tonen je beste matches.",
+    "description": "Ready view subtitle"
+  },
+  "readySupportedSites": {
+    "message": "Ondersteunde platforms: LinkedIn, Glassdoor, NationaleVacaturebank, WerkZoeken",
+    "description": "List of supported job sites"
+  },
+  "readyUsingCV": {
+    "message": "Actief CV:",
+    "description": "CV selector label"
+  },
+  "readyUsing": {
+    "message": "Actief: $name$",
+    "description": "Current CV name",
+    "placeholders": {
+      "name": { "content": "$1" }
+    }
+  },
+
+  "logout": {
+    "message": "Uitloggen",
+    "description": "Logout button"
+  },
+
+  "footerText": {
+    "message": "Deze extensie is slechts een deel van JSA.",
+    "description": "Footer first line"
+  },
+  "footerCTA": {
+    "message": "Bezoek <a href=\"https://jsa.works\" target=\"_blank\">jsa.works</a> voor de volledige ervaring: gericht zoeken, geavanceerde filters, sollicitaties bijhouden en CV-beheer.",
+    "description": "Footer call to action (contains HTML link)"
+  },
+
+  "badgeExcellent": {
+    "message": "Uitstekende match!",
+    "description": "Badge text for score >= 0.75"
+  },
+  "badgeGood": {
+    "message": "Goede match!",
+    "description": "Badge text for score >= 0.65"
+  },
+  "badgeWorth": {
+    "message": "Bekijk deze!",
+    "description": "Badge text for score < 0.65"
+  },
+
+  "themeSystem": {
+    "message": "Systeem",
+    "description": "System theme option"
+  },
+  "themeLight": {
+    "message": "Licht",
+    "description": "Light theme option"
+  },
+  "themeDark": {
+    "message": "Donker",
+    "description": "Dark theme option"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "extName": {
+    "message": "JSA - Job Search Assistant",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "See how well each job fits you before you even open it!",
+    "description": "Extension description"
+  },
+
+  "authTitle": {
+    "message": "Sign in to JSA",
+    "description": "Auth view title"
+  },
+  "authSubtitle": {
+    "message": "Connect your account to see job matches while browsing job sites.",
+    "description": "Auth view subtitle"
+  },
+  "authLoginButton": {
+    "message": "Login to JSA",
+    "description": "Login button text"
+  },
+  "authLoginTimedOut": {
+    "message": "Login timed out",
+    "description": "Login timeout error"
+  },
+  "authLoginFailed": {
+    "message": "Failed to start login",
+    "description": "Login failed error"
+  },
+
+  "uploadTitle": {
+    "message": "Upload your CV",
+    "description": "Upload view title"
+  },
+  "uploadSubtitle": {
+    "message": "We'll analyze your resume to find your best job matches.",
+    "description": "Upload view subtitle"
+  },
+  "uploadFileTab": {
+    "message": "Upload File",
+    "description": "File upload tab"
+  },
+  "uploadTextTab": {
+    "message": "Write Text",
+    "description": "Text input tab"
+  },
+  "uploadDropzoneText": {
+    "message": "Drop your CV here or click to select",
+    "description": "Dropzone main text"
+  },
+  "uploadDropzoneHint": {
+    "message": "or Ctrl+V to paste from clipboard",
+    "description": "Dropzone hint about pasting"
+  },
+  "uploadDropzoneFormats": {
+    "message": "PDF, DOCX, or TXT (max 5MB)",
+    "description": "Supported file formats"
+  },
+  "uploadButton": {
+    "message": "Upload CV",
+    "description": "Upload button text"
+  },
+  "uploadButtonUploading": {
+    "message": "Uploading...",
+    "description": "Upload button text while uploading"
+  },
+  "uploadTextTitlePlaceholder": {
+    "message": "e.g., General Practitioner",
+    "description": "Text title input placeholder"
+  },
+  "uploadTextTitleHint": {
+    "message": "Title (optional) — leave blank to use \"My CV.txt\"",
+    "description": "Text title hint"
+  },
+  "uploadTextContentHint": {
+    "message": "Describe your background, skills, and what you're looking for",
+    "description": "Text content hint"
+  },
+  "uploadTextPlaceholder": {
+    "message": "General Practitioner with 5+ years experience. Comfortable with diagnostics, patient care, EMR systems. Currently at City Medical Center managing 30+ patients daily. Looking for outpatient clinic positions with less paperwork.",
+    "description": "Text content placeholder"
+  },
+  "uploadTextMinChars": {
+    "message": "$count$ characters (min $min$)",
+    "description": "Character count with minimum",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "min": { "content": "$2" }
+    }
+  },
+  "uploadTextChars": {
+    "message": "$count$ characters",
+    "description": "Character count",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "uploadSubmitButton": {
+    "message": "Submit",
+    "description": "Text submit button"
+  },
+  "uploadErrorInvalidType": {
+    "message": "Please upload a PDF, DOCX, or TXT file",
+    "description": "Invalid file type error"
+  },
+  "uploadErrorTooLarge": {
+    "message": "File size must be less than 5MB",
+    "description": "File too large error"
+  },
+  "uploadErrorFailed": {
+    "message": "Upload failed",
+    "description": "Generic upload error"
+  },
+
+  "processingTitle": {
+    "message": "Processing your CV",
+    "description": "Processing view title"
+  },
+  "processingSubtitle": {
+    "message": "Please wait, this usually takes a few minutes.",
+    "description": "Processing view subtitle"
+  },
+  "processingStepUploading": {
+    "message": "Uploading document",
+    "description": "Processing step 1"
+  },
+  "processingStepIndexing": {
+    "message": "Indexing your CV",
+    "description": "Processing step 2"
+  },
+  "processingFailed": {
+    "message": "Processing failed",
+    "description": "Processing failed error"
+  },
+  "processingStatusError": {
+    "message": "Failed to check status",
+    "description": "Status check error"
+  },
+
+  "readyTitle": {
+    "message": "Ready to match!",
+    "description": "Ready view title"
+  },
+  "readySubtitle": {
+    "message": "Browse job sites and we'll highlight your top matches.",
+    "description": "Ready view subtitle"
+  },
+  "readySupportedSites": {
+    "message": "Supported platforms: LinkedIn, Glassdoor, NationaleVacaturebank, WerkZoeken",
+    "description": "List of supported job sites"
+  },
+  "readyUsingCV": {
+    "message": "Using CV:",
+    "description": "CV selector label"
+  },
+  "readyUsing": {
+    "message": "Using: $name$",
+    "description": "Current CV name",
+    "placeholders": {
+      "name": { "content": "$1" }
+    }
+  },
+
+  "logout": {
+    "message": "Logout",
+    "description": "Logout button"
+  },
+
+  "footerText": {
+    "message": "This extension is just a fraction of JSA functionality.",
+    "description": "Footer first line"
+  },
+  "footerCTA": {
+    "message": "Visit <a href=\"https://jsa.works\" target=\"_blank\">jsa.works</a> for the full experience: targeted job search, advanced filters, application tracking and CV management.",
+    "description": "Footer call to action (contains HTML link)"
+  },
+
+  "badgeExcellent": {
+    "message": "Excellent match!",
+    "description": "Badge text for score >= 0.75"
+  },
+  "badgeGood": {
+    "message": "Good match!",
+    "description": "Badge text for score >= 0.65"
+  },
+  "badgeWorth": {
+    "message": "Worth checking out!",
+    "description": "Badge text for score < 0.65"
+  },
+
+  "themeSystem": {
+    "message": "System",
+    "description": "System theme option"
+  },
+  "themeLight": {
+    "message": "Light",
+    "description": "Light theme option"
+  },
+  "themeDark": {
+    "message": "Dark",
+    "description": "Dark theme option"
+  }
+}
