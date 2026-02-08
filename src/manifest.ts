@@ -18,12 +18,10 @@ export default defineManifest(() => {
       128: "src/assets/icons/icon-128.png",
     },
 
-    permissions: ["storage", "activeTab", "tabs"],
+    permissions: ["storage", "tabs"],
 
     host_permissions: [
       "https://jsa.works/*",
-      "http://localhost/*",
-      "https://localhost/*",
       "https://*.linkedin.com/*",
       "https://*.glassdoor.com/*",
       "https://*.glassdoor.nl/*",
